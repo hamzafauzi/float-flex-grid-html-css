@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    margin: 0px;
+    border: 10px solid rgb(2, 3, 2);
+    
+    
+  }
+
+  .container{
+    display: flex;
+  
+}
+  .box1 {
+    flex: 1;
+    width: 30%;
+    margin: 10px;
+    border: 5px solid black;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    padding: 10px;
+  }
+  .grid-item {
+  
+    border: 10px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    
+    
+  }
+
+
+
+
+
+  @media (max-width:767px) {
+    .box {
+      width: 100%;
+     
+    }
+  }
+ 
+  
